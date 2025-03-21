@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "0C21E453-ABA1-4B78-B92B-214D4238121D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Tetris.xcodeproj",
+      "identifier" : "62E5D03D2D8E050200EEFC07",
+      "name" : "Tetris"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Tetris.xcodeproj",
+        "identifier" : "62E5D0532D8E050400EEFC07",
+        "name" : "TetrisTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Tetris.xcodeproj",
+        "identifier" : "62E5D05D2D8E050400EEFC07",
+        "name" : "TetrisUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
